@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <fieldset>
+        <button class="creat-account">Criar conta</button>
+        <button class="btn-login">Logar</button>
+
+        <form class="form-sign-in" method="" action="">
+            <h2>Criar conta</h2>
+    
+            <label for="nome">Nome: </label><br>
+            <input id="nome" type=text required name=nome placeholder="Natan Aguiar"><br><br>
+    
+            <label for="email-register">E-mail: </label><br>
+            <input id="email-register" type=email required name=email placeholder="exemplo@email"><br><br>
+    
+            <label for="pwd-register">Password:</label><br>
+            <input type="password" id="pwd-register" name="pwd" required><br><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    
+        <form class="form-login" method="" action="">
+            <h2>Bem-vindo</h2>
+    
+            <label for="email">E-mail: </label><br>
+            <input id="email" type=email required name=email><br><br>
+    
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd" required><br><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+
+    <script src="form.js"></script>
+</body>
+</html>

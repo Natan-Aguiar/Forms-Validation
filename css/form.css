@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00b09b), to(#96c93d));
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+body fieldset {
+  width: 60%;
+  height: 60%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+body fieldset .form-login {
+  display: none;
+}
+/*# sourceMappingURL=form.css.map */
