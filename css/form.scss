@@ -6,16 +6,14 @@
 
 body{
     height: 100vh;  
- 
+    background: linear-gradient(to right, #00b09b, #96c93d);
+
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-image: linear-gradient(to right, #00b09b, #96c93d);
-
-    fieldset{
-        width: 60%;
-        height: 60%;
+    section{
+        width: 300px;
 
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(1px);
@@ -24,6 +22,25 @@ body{
         border:1px solid rgba(255, 255, 255, 0.1);
 
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+
+        text-align: center;
+
+        button{
+            border: none;
+            margin: 12px 0 12px 0;
+        }
+
+        form input{
+            width: 60%;
+            height: 40px;
+
+            padding: 4px;
+
+            background: #e0dede;            
+
+            border: none;
+            border-radius: 5px;
+        }
 
         .form-login{
             display: none;
