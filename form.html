@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>f</title>
     <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
     <section>
-        <button class="creat-account">Criar conta</button>
-        <button class="btn-login">Logar</button>
-
-        <form class="form-sign-up" method="" action="">
-            <h2>Criar conta</h2>
-    
-            <input id="nome" type=text required name=nome placeholder="Nome de usuário"><br><br>
-    
-            <input id="email-register" type=email required name=email placeholder="exemplo@email"><br><br>
-    
-            <input type="password" id="pwd-register" name="pwd" required placeholder="Senha"><br><br>
-    
-            <input type="submit" value="Cadastrar">
-        </form>
-    
         <form class="form-login" method="" action="">
-            <h2>Bem-vindo</h2>
-    
-            <input id="email" type=email required name=email><br><br>
-    
-            <input type="password" id="pwd" name="pwd" required><br><br>
-    
-            <input type="submit" value="Submit">
+            <fieldset>
+                <h3>Bem-vindo</h3>
+                
+                <label for="email"></label>
+                <input id="email" placeholder="exemplo@email" type=email required name=email><br><br>
+                
+                <label for="pwd"></label>
+                <input id="pwd" placeholder="Senha" type="password" name="pwd" required><br><br>
+        
+                <input type="submit" value="Entrar">
+
+                <a class="creat-account">Ou Cadastre-se</a>
+            </fieldset>
+        </form>
+        
+        <form class="form-sign-up" method="" action="">
+            <fieldset>
+                <h3>Criar conta</h3>
+                
+                <label for="nome"></label>
+                <input id="nome" type=text required name=nome placeholder="Nome de usuário"><br><br>
+        
+                <label for="email-register"></label>
+                <input id="email-register" type=email required name=email placeholder="exemplo@email"><br><br>
+        
+                <label for="pwd-register"></label>
+                <input id="pwd-register" type="password" name="pwd" required placeholder="Senha"><br><br>
+        
+                <input type="submit" value="Cadastre-se">
+
+                <a class="btn-login">Faça Login</a>
+            </fieldset>
         </form>
     </section>
 

@@ -20,7 +20,7 @@ body {
           justify-content: center;
 }
 
-body section {
+body fieldset {
   width: 300px;
   background: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(1px);
@@ -32,12 +32,13 @@ body section {
   text-align: center;
 }
 
-body section button {
-  border: none;
+body fieldset h3 {
+  color: #ffffff;
   margin: 12px 0 12px 0;
+  cursor: pointer;
 }
 
-body section form input {
+body fieldset input {
   width: 60%;
   height: 40px;
   padding: 4px;
@@ -46,7 +47,21 @@ body section form input {
   border-radius: 5px;
 }
 
-body section .form-login {
+body fieldset a {
+  display: block;
+  margin: 12px 0 12px 0;
+  cursor: pointer;
+}
+
+body .form-sign-up {
   display: none;
+}
+
+body button {
+  width: 150px;
+  height: 40px;
+  padding: 4px;
+  background: #e0dede;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=form.css.map */
